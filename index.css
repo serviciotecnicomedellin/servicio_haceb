@@ -264,20 +264,21 @@ body {
 
 @media screen and (max-width: 768px) {
   .container-boton-whatsapp img {
-    width: 43px;
+    width: 24px;
     position: relative;
-    left: 27px;
+    left: 38px;
     top: 3px;
   }
   .container-boton-whatsapp {
     position: fixed;
     top: 520px !important;
-    left: 74% !important;
+    left: 78% !important;
     z-index: 9999;
     width: 93px !important;
     display: flex;
     background-color: rgb(44, 164, 28);
     border-radius: 15px;
+    height: 14vw;
   }
   .container-boton-whatsapp p {
     display: flex;
@@ -296,7 +297,24 @@ body {
     top: -4px;
   }
   #contenedor-telefono {
-    top: 444px !important;
+    top: 454px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container-boton-whatsapp {
+    position: fixed;
+    top: 520px !important;
+    left: 69% !important;
+    z-index: 9999;
+    width: 93px !important;
+    display: flex;
+    background-color: rgb(44, 164, 28);
+    border-radius: 15px;
+    height: 14vw;
+  }
+  #contenedor-telefono {
+    top: 464px !important;
   }
 }
 .container-boton-whatsapp {
@@ -428,10 +446,9 @@ body {
     font-size: 25px;
     margin-bottom: 11px;
     font-weight: 700;
-    position: absolute;
-    left: 781px;
-    top: 208px;
-    /* margin-bottom: 39px !important; */
+    position: sticky;
+    left: 60vw;
+    top: 193px;
   }
 }
 .texto-sobre-nosotros span {
@@ -444,21 +461,57 @@ body {
     color: white;
     width: 309px;
     font-size: 11px;
-    position: relative;
-    left: 79px;
+    position: absolute;
+    left: 55px;
     margin-top: 50px;
     /* margin-bottom: 21px; */
   }
   .texto-sobre-nosotros {
     width: 400px;
-    margin-left: -72px;
   }
   .texto-sobre-nosotros h3 {
     top: 476px !important;
-    left: 68px !important;
+    left: 110px !important;
   }
 }
-
+@media screen and (max-width: 322px) {
+  .texto-sobre-nosotros span {
+    color: white;
+    width: 309px;
+    font-size: 11px;
+    position: absolute;
+    left: 8px;
+    margin-top: 50px;
+  }
+  .boton-whatsapp-contacto {
+    position: absolute;
+    left: 37px !important;
+    top: -30px;
+  }
+  .texto-sobre-nosotros h3 {
+    top: 476px !important;
+    left: 77px !important;
+  }
+}
+@media (max-width: 380px) and (min-width: 330px) {
+  .texto-sobre-nosotros span {
+    color: white;
+    width: 309px;
+    font-size: 11px;
+    position: absolute;
+    left: 28px !important;
+    margin-top: 50px;
+  }
+  .boton-whatsapp-contacto {
+    position: absolute;
+    left: -1px !important;
+    top: -30px;
+  }
+  .texto-sobre-nosotros h3 {
+    top: 476px !important;
+    left: 90px !important;
+  }
+}
 /*Boton contactenos*/
 .boton-whatsapp-contacto {
   color: white;
@@ -483,8 +536,9 @@ body {
 
 @media screen and (max-width: 768px) {
   .boton-whatsapp-contacto {
-    position: relative;
-    left: -81px;
+    position: absolute;
+    left: -45px;
+    top: -30px;
   }
 }
 
