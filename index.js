@@ -40,7 +40,7 @@ function actualizarCarrusel() {
 
 // Función para iniciar el carrusel automático
 function iniciarCarruselAutomatico() {
-  intervalId = setInterval(avanzarCarrusel, 3000); // Avanzar cada 3 segundos (3000 ms)
+  intervalId = setInterval(avanzarCarrusel, 4000); // Avanzar cada 4 segundos (4000 ms)
 }
 
 // Iniciar el carrusel automático al cargar la página
